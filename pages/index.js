@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,7 +10,9 @@ export default function Home() {
         <meta name="description" content="Lunar Coffee Terrace" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-
+      <header>
+        <h1>Orbital-roasting since 2024</h1>
+      </header>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Lunar Coffee Terrace ☕️
@@ -19,6 +20,10 @@ export default function Home() {
 
         <p className={styles.description}>
           Coffee corner for space enthusiasts
+        </p>
+
+        <p className={styles.description}>
+          Opening Soon
         </p>
 
         {/* <div className={styles.grid}>
